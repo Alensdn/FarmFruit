@@ -1,0 +1,57 @@
+body{
+    margin: 0px;
+    background-image: url('images/fruit2.jpg');
+    background-size: cover;
+}
+.nav1 {
+    background-color: #4CAF50;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav1 img {
+    width: 50px;
+    height: auto;
+}
+
+.nav1 p {
+    margin: 0;
+    font-style: italic;
+    font-size: 20px;
+    margin-left: -46%;
+}
+
+.nav1 label {
+    font-size: 100px;
+    margin-left: -45%;
+}
+
+.nav1 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav1 li {
+    margin-left: 10px;
+}
+
+.nav1 a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 8px 16px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav1 a:hover {
+    background-color: #333;
+    color: #fff;
+}
+

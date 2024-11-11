@@ -1,0 +1,237 @@
+.diva {
+    margin-top: 50px;
+    display: flex;
+    background-color: rgba(12, 4, 4, 0);
+    width: 90%;
+    height: 80vh;
+    justify-content: space-evenly;
+    margin-left: 5%;
+    position: relative; /* Add relative positioning to the container */
+}
+
+.div1 {
+    overflow: auto;
+    padding: 0;
+    background-color: white;
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.301);
+}
+.div1 h2{
+    padding: 0;
+    background-color: #4CAF50;
+    color: rgb(0, 0, 0);
+    height: 30px;
+    width: 100%;
+    margin-top: 0px;
+    text-align: center;
+    align-items: center;
+}
+.div1 table{
+    background-color: white;
+    margin-left: 89px;
+    height: auto;
+    text-align: center; /* Center align the text within the table */
+    border-collapse: collapse;
+    width: 120px;
+}
+.div1 th {
+    font-size: x-large;
+    background-color: #4CAF50;
+    color: rgb(8, 8, 8);
+    font-weight: normal;
+    text-align: left;
+    padding: 3px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+  }
+.div1 tr {
+    background-color: white;
+  }
+.div1 td {
+    font-size: x-large;
+    padding: 3px;
+    border-bottom: 1px solid #ddd;
+}
+.table1{
+    margin-top: 0px;
+}
+.table2{
+    margin-top: 10px;
+}
+
+.div2 {
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.301);
+    padding: 0;
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.div2 h2{
+    padding: 0;
+    background-color: #4CAF50;
+    color: rgb(0, 0, 0);
+    height: 30px;
+    width: 100%;
+    margin-top: 0px;
+    text-align: center;
+    align-items: center;
+}
+.div2 table{
+    background-color: white;
+    margin-left: 89px;
+    height: auto;
+    text-align: center; /* Center align the text within the table */
+    border-collapse: collapse;
+    width: 120px;
+}
+.div2 th {
+    font-size: x-large;
+    background-color: #4CAF50;
+    color: rgb(8, 8, 8);
+    font-weight: normal;
+    text-align: left;
+    padding: 3px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+  }
+.div2 tr {
+    background-color: white;
+  }
+.div2 td {
+    font-size: x-large;
+    padding: 3px;
+    border-bottom: 1px solid #ddd;
+}
+
+.div3 {
+    overflow: auto;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.301);
+    border-radius: 10px;
+    width: 300px;
+    height: 250px;
+    position: absolute; /* Add absolute positioning to div3 */
+    top: 50%; /* Position div3 relative to the bottom of div2 */
+    left: 461px; /* Align div3 with the left edge of the container */
+    text-align: center;
+}
+.div3 h3{
+    padding: 0;
+    background-color: #4CAF50;
+    color: rgb(0, 0, 0);
+    height: 20px;
+    width: 100%;
+    margin-top: 0px;
+    text-align: center;
+    align-items: center;
+}
+.div3 h1{
+    color: rgb(0, 0, 0);
+    margin-top: -20px;
+    background-color: #4CAF50;
+    width: 100%;
+    align-self: center;
+    height: auto;
+}
+.div3 table{
+    background-color: white;
+    margin-left: 55px;
+    height: auto;
+    text-align: center; /* Center align the text within the table */
+    margin-top: -10px;
+    border-collapse: collapse;
+    width: 190px;
+}
+.div3 th {
+    background-color: #4CAF50;
+    color: rgb(8, 8, 8);
+    font-weight: normal;
+    text-align: left;
+    padding: 3px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+  }
+.div3 tr {
+    background-color: white;
+  }
+.div3 td {
+    padding: 3px;
+    border-bottom: 1px solid #ddd;
+  }
+
+.div4 {
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.301);
+    padding: 0;
+    border-radius: 10px;
+    width: 300px;
+    height: 250px;
+    align-items: center;
+}
+
+.div4 h2{
+    padding: 0;
+    background-color: #4CAF50;
+    color: rgb(0, 0, 0);
+    height: 30px;
+    width: 100%;
+    margin-top: 0px;
+    text-align: center;
+    align-items: center;
+}
+
+.div4 table{
+    background-color: white;
+    margin-left: 89px;
+    height: auto;
+    text-align: center; /* Center align the text within the table */
+    margin-top: 0px;
+    border-collapse: collapse;
+    width: 120px;
+}
+.div4 th {
+    background-color: #4CAF50;
+    color: rgb(8, 8, 8);
+    font-weight: normal;
+    text-align: left;
+    padding: 3px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+  }
+.div4 tr {
+    background-color: white;
+  }
+.div4 td {
+    
+    padding: 3px;
+    border-bottom: 1px solid #ddd;
+}
+
+.div2 a {
+    text-decoration: none;
+    border: 1px solid #0f0f0f;
+    border-radius: 4px;
+    color: #080808;
+    background-color: #4CAF50;
+    padding: 4px 8px;
+    transition: background-color 0.3s, color 0.3s;
+    margin-top: -10px;
+    margin-left: 110px;
+}
+
+.div2 a:hover {
+    background-color: #3d3939;
+    color: #c5c3c3;
+}
+
+.table3{
+    margin-top: -15px;
+}
+.table4{
+    margin-top: 0px;
+    margin-bottom: 15px;
+}

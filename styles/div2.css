@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('images/farmfruit-bg2.jpg');
+    background-size: cover;
+}
+.loginNregister{
+    width: 350px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+}
+
+.loginNregister input{
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-left: 50px;
+}
+.loginNregister label{
+    margin-left: 55px;
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: bold;
+}
+
+.loginNregister button{
+    margin-left: 80px;
+    width: 50%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.loginNregister h2{
+    margin-left: 135px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.farm-fruit-div {
+    background-color:  #4CAF50;
+    height: 70px;
+    display: flex;
+}
+
+.farm-fruit-div p {
+    font-style: italic;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.farm-fruit-div a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 4px 10px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+    position: relative;
+    left: 850px;
+    width: 80px;
+    height: 25px;
+    margin-top: 19px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.farm-fruit-div a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+
+.loginNregister2{
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    margin-top: 10px;
+}
+.loginNregister2 label{
+    margin-left: 82px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.loginNregister2 button{
+    margin-left: 67px;
+}
+.notify-register{
+    background-color: rgba(0, 128, 0, 0.9);
+    color: white; 
+    text-align: center; 
+    padding: 10px;
+    margin-top: -760px;
+    width: 200px;
+    margin-left: 550px;
+    border-radius: 10px;
+    display: none;
+}
+.forgot-password a {
+    text-decoration: none; /* Remove underline */
+    color: #333; /* Set link color */
+    font-size: 14px; /* Adjust font size */
+    margin-top: 5px; /* Adjust spacing */
+    display: block; /* Make it a block element */
+}
+
+.forgot-password a:hover {
+    color: #666; /* Change color on hover */
+}
